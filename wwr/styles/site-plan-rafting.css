@@ -7,25 +7,25 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #F8F7F2   ;
-  --secondary-color: #35398A ;
-  --accent1-color: #C29A3B;
-  --accent2-color: #7B1C28;
+  --primary-color: #EDEADE   ;
+  --secondary-color: #9D9AC1 ;
+  --accent1-color: #90C2AE;
+  --accent2-color: #442864;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Macondo";
   --paragraph-font: "Nunito Sans", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: #F8F7F2; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #F8F7F2; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #35398A ;
-  --nav-link-color: #F8F7F2;
-  --nav-background-color: #7B1C28;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #C29A3B;
+  --headline-color-on-white: #442864;  /* headlines on a white background */ 
+  --headline-color-on-color: #EDEADE; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #442864; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #EDEADE; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #9D9AC1 ;
+  --nav-link-color: #EDEADE;
+  --nav-background-color: #90C2AE;
+  --nav-hover-link-color: #EDEADE;
+  --nav-hover-background-color: #9D9AC1;
 }
 
 

@@ -1,3 +1,7 @@
+body {
+    text-align: center;
+}
+
 h1, a {
     color: steelblue;
 }
@@ -13,4 +17,26 @@ h1, a {
 
 .room{
     border: 1px solid pink;
+}
+
+img {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+p{
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+nav a {
+    text-decoration:none;
+}
+
+nav a:hover {
+    color:purple;
 }
