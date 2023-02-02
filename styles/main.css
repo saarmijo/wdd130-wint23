@@ -1,22 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
 body {
     text-align: center;
+    background-color: lightcyan;
+}
+
+#container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration:none;
+    padding: 10px;
+    background-color: lightseagreen;
+    margin: 5px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
 }
 
 h1, a {
-    color: steelblue;
+    color: darkcyan;
 }
 
-#emphasis{
-    color:red;
-}
-
-#active {
-    background-color: steelblue;
-    color:white;
-}
-
-.room{
-    border: 1px solid pink;
+div {
+    text-align: left;
 }
 
 img {
@@ -27,16 +48,13 @@ img {
 
 p{
     text-align: center;
-    width: 400px;
+    width: 650px;
     margin: 0 auto;
     font-size: 1.2em;
     line-height: 1.5em;
-}
-
-nav a {
-    text-decoration:none;
+    color: darkblue;
 }
 
 nav a:hover {
-    color:purple;
+    color: darkblue;
 }
