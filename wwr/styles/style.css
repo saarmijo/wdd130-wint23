@@ -133,9 +133,21 @@ nav a:hover {
     color: #F9F6EE;
 }
 
-.book:hover, .join:hover {
+.book {
+    background-color: #90C2AE;
+}
+
+.join {
+    background-color: #9D9AC1;
+}
+.book:hover {
   background-color: #9D9AC1;
   color: #F9F6EE;
+}
+
+.join:hover {
+    background-color: #F9F6EE;
+    color: #442864
 }
 
 #background {
@@ -171,7 +183,7 @@ h4 {
 }
 
 .book, .join {
-   color: #9D9AC1; 
+   color: #F9F6EE; 
    text-decoration: none;
    font-family: 'Nunito Sans';
    font-size: 18px;
