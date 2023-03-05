@@ -301,7 +301,7 @@ main section img {
 
 #blog-top {
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .blog-icon {
     width: 250px;
