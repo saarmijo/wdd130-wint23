@@ -209,7 +209,7 @@ nav a:hover {
     margin-bottom: 80px;
 }
 
-#labels {
+.labels {
     background-color: #194a8b;
     color: #fffbfb; 
     text-decoration: none;
@@ -220,7 +220,7 @@ nav a:hover {
     border-radius: 5px;
 }
 
-#labels:hover {
+.labels:hover {
     background-color: #336642;
     color: #fffbfb; 
     text-decoration: none;
