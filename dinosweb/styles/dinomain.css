@@ -1,6 +1,6 @@
-/* body css */
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Hepta+Slab&display=swap');
 
+/* Home Page */
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -258,4 +258,134 @@ footer p a:hover {
     padding: 2px 1px;
     margin-top: 50px;
     border-radius: 5px;
+}
+
+/* Triassic Page */
+#content2 {
+    background-color: #F4EEE6;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#triassic-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: linear-gradient(#fffbfb, #33664258);
+}
+.triassic-title-icon {
+    width: 150px;
+    grid-column: 2/3;
+    justify-self: center;
+    border-radius: 50%;
+    border: .5px solid #3d3d3d;
+}
+.triassic-title {
+    text-align: center;
+    grid-column: 1/4;
+    font-family: 'Berkshire Swash';
+    font-size: 45px;
+    color: #3d3d3d;
+    padding-bottom: 50px;
+}
+.triassic-grid {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    background-image: linear-gradient(#33664258, #336642c3);
+}
+.triassic-msg {
+    grid-column: 1/12;
+    grid-row: 1/2;
+    background-color: #194a8b;
+    color: #fffbfb;
+    padding: 80px;
+    margin-bottom: 110px;
+}
+.pantydraco-msg {
+    grid-column: 2/6;
+    grid-row: 3/5;
+    border: 2px solid #3d3d3d;
+    padding: 20px;
+    background-color: #fffbfb;
+    padding-bottom: 50px;
+}
+.pantydraco {
+    grid-column: 3/5;
+    grid-row: 4/6;
+    width: 100%;
+    margin-top: 190px;
+    height: 220px;
+    width: 300px;
+    margin-bottom: 190px;
+    border: 2px solid #3d3d3d;
+    box-shadow: 10px 10px 15px #336642;
+}
+.saturnalia-msg {
+    grid-column: 7/11;
+    grid-row: 3/5;
+    border: 2px solid #3d3d3d;
+    padding: 20px;
+    background-color: #fffbfb;
+    padding-bottom: 50px;
+}
+.saturnalia {
+    grid-column: 8/10;
+    grid-row: 4/6;
+    width: 100%;
+    margin-top: 190px;
+    height: 220px;
+    width: 300px;
+    margin-bottom: 190px;
+    border: 2px solid #3d3d3d;
+    box-shadow: 10px 10px 15px #336642;
+}
+.daemonosaurus-msg {
+    grid-column: 2/6;
+    grid-row: 7/9;
+    border: 2px solid #3d3d3d;
+    padding: 20px;
+    background-color: #fffbfb;
+    padding-bottom: 50px;
+}
+.daemonosaurus {
+    grid-column: 3/5;
+    grid-row: 8/10;
+    width: 100%;
+    margin-top: 190px;
+    height: 220px;
+    width: 300px;
+    margin-bottom: 190px;
+    border: 2px solid #3d3d3d;
+    box-shadow: 10px 10px 15px #336642;
+}
+.eoraptor-msg {
+    grid-column: 7/11;
+    grid-row: 7/9;
+    border: 2px solid #3d3d3d;
+    padding: 20px;
+    background-color: #fffbfb;
+    padding-bottom: 50px;
+}
+.eoraptor {
+    grid-column: 8/10;
+    grid-row: 8/10;
+    width: 100%;
+    margin-top: 190px;
+    height: 220px;
+    width: 300px;
+    margin-bottom: 190px;
+    border: 2px solid #3d3d3d;
+    box-shadow: 10px 10px 15px #336642;
+}
+
+@media screen and (max-width: 900px) {
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero-msg {
+        margin-bottom: 110px;
+        font-size: 20px;
+    }
 }
