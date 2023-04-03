@@ -492,6 +492,121 @@ footer p a:hover {
     box-shadow: 10px 10px 15px #3d3d3d;
 }
 
+/* Cretaceous Page */
+#content4 {
+    background-color: #F4EEE6;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#cretaceous-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: linear-gradient(#fffbfb, #3d3d3d47);
+}
+.cretaceous-title-icon {
+    width: 150px;
+    grid-column: 2/3; 
+    justify-self: center;
+    border-radius: 50%;
+    border: .5px solid #3d3d3d;
+}
+.cretaceous-title {
+    text-align: center;
+    grid-column: 1/4;
+    font-family: 'Berkshire Swash';
+    font-size: 45px;
+    color: #3d3d3d;
+    padding-bottom: 50px;
+}
+.cretaceous-grid {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    background-image: linear-gradient(#3d3d3d47, #3d3d3de8);
+}
+.cretaceous-msg {
+    grid-column: 1/12;
+    grid-row: 1/2;
+    background-color: #3d3d3d;
+    color: #fffbfb;
+    padding: 80px;
+    margin-bottom: 110px;
+}
+.velociraptor-msg {
+    grid-column: 2/6;
+    grid-row: 3/5;
+    border: 2px solid #3d3d3d;
+    padding: 20px;
+    background-color: #fffbfb;
+    padding-bottom: 50px;
+}
+.velociraptor {
+    grid-column: 3/5;
+    grid-row: 4/6;
+    width: 100%;
+    margin-top: 190px;
+    height: 220px;
+    width: 300px;
+    margin-bottom: 190px;
+    border: 2px solid #3d3d3d;
+    box-shadow: 10px 10px 15px #3d3d3d;
+}
+.gigantosaurus-msg {
+    grid-column: 7/11;
+    grid-row: 3/5;
+    border: 2px solid #3d3d3d;
+    padding: 20px;
+    background-color: #fffbfb;
+    padding-bottom: 50px;
+}
+.giganotosaurus {
+    grid-column: 8/10;
+    grid-row: 4/6;
+    width: 100%;
+    margin-top: 190px;
+    height: 220px;
+    width: 300px;
+    margin-bottom: 190px;
+    border: 2px solid #3d3d3d;
+    box-shadow: 10px 10px 15px #3d3d3d;
+}
+.tyrannosaurus-msg {
+    grid-column: 2/6;
+    grid-row: 7/9;
+    border: 2px solid #3d3d3d;
+    padding: 20px;
+    background-color: #fffbfb;
+    padding-bottom: 50px;
+}
+.tyrannosaurus {
+    grid-column: 3/5;
+    grid-row: 8/10;
+    width: 100%;
+    margin-top: 190px;
+    height: 220px;
+    width: 300px;
+    margin-bottom: 190px;
+    border: 2px solid #3d3d3d;
+    box-shadow: 10px 10px 15px #3d3d3d;
+}
+.triceratops-msg {
+    grid-column: 7/11;
+    grid-row: 7/9;
+    border: 2px solid #3d3d3d;
+    padding: 20px;
+    background-color: #fffbfb;
+    padding-bottom: 50px;
+}
+.triceratops {
+    grid-column: 8/10;
+    grid-row: 8/10;
+    width: 100%;
+    margin-top: 190px;
+    height: 220px;
+    width: 300px;
+    margin-bottom: 190px;
+    border: 2px solid #3d3d3d;
+    box-shadow: 10px 10px 15px #3d3d3d;
+}
 @media screen and (max-width: 900px) {
     nav, footer {
         flex-direction: column;
